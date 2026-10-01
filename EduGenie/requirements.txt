@@ -1,0 +1,17 @@
+# Web framework
+fastapi>=0.115.0,<1.0
+uvicorn[standard]>=0.30.0
+jinja2>=3.1.4
+python-dotenv>=1.0.1
+
+# Google Gemini (cloud LLM) - current official SDK
+google-genai>=1.0.0
+
+# Local model for the Explanation module (LaMini-Flan-T5-783M)
+transformers>=4.44.0
+torch>=2.2.0
+sentencepiece>=0.2.0
+
+# Testing
+pytest>=8.0.0
+httpx>=0.27.0
